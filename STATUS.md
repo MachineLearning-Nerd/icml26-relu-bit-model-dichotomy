@@ -8,7 +8,7 @@ Contract manifest SHA-256: c6a18ccebc87e1f980d8cc9c8885bc616e1cecc93393d6687e058
 Source paper/version: arXiv:2602.19017 (source and PDF pinned)
 Official code/data/model pins: no author executable or dataset reference found in pinned source audit
 Compute policy: local CPU/local GPU only; no HF cpu-upgrade/Jobs/paid/remote compute
-GitHub repository: pending creation
+GitHub repository: https://github.com/MachineLearning-Nerd/icml26-repro-nMS1YTjHMH-relu-bit-model-dichotomy
 Current phase: claim_1_source_local_protocol_audit_complete
 Per-claim state: C1 inconclusive source/protocol audit; C2-C5 unstarted
 Publication status: not published
