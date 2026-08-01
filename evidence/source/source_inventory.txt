@@ -1,0 +1,2 @@
+Pinned arXiv source archive inventory (2602.19017): arxiv.tex, example_paper.bib, gradients_poly_vs_relu.pdf, 00README.json.
+The source contains theorem/reduction prose and an illustrative figure. No author GitHub URL, executable code, dataset, configuration, seed list, or release artifact was found in the archive text/inventory.
