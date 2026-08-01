@@ -6,11 +6,13 @@ Independent reproduction workspace for ICML 2026 submission 15471 (`nMS1YTjHMH`)
 
 ## Current evidence
 
-Claim 1 has a source-pinned local feasibility/protocol audit only. It is **inconclusive**, not a verification. The next milestone is an independent constructive small-SLP/ERM reduction implementation with exact rational arithmetic and destructive controls.
+Claim 1 has a source-pinned finite exact-rational clean-room SLP-to-quadratic-network gadget reproduction. Four independent small SLP fixtures and sixteen queried-bit checks match exactly; a malformed multiplication gadget fails all fixtures. This is explicitly a **toy** conformance check, not a #P-hardness proof or a complete ERM reduction.
 
 ## Reproduce contract checks
 
 ```bash
 python3 -m pytest -q
-sha256sum -c evidence/source/SHA256SUMS
+(cd evidence/source && sha256sum -c SHA256SUMS)
+python3 src/claim1_quadratic_slp_toy.py --out outputs/claim1_quadratic_slp_toy
+(cd outputs/claim1_quadratic_slp_toy && sha256sum -c SHA256SUMS)
 ```
