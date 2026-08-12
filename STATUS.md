@@ -8,8 +8,8 @@ Contract manifest SHA-256: c6a18ccebc87e1f980d8cc9c8885bc616e1cecc93393d6687e058
 Source paper/version: arXiv:2602.19017 (source and PDF pinned)
 Official code/data/model pins: no author executable or dataset reference found in pinned source audit
 Compute policy: local CPU/local GPU only; no HF cpu-upgrade/Jobs/paid/remote compute
-GitHub repository: https://github.com/MachineLearning-Nerd/icml26-repro-nMS1YTjHMH-relu-bit-model-dichotomy
-Current phase: claim_1_attempt_1_exact_rational_quadratic_slp_toy_complete
+GitHub repository: https://github.com/MachineLearning-Nerd/icml26-relu-bit-model-dichotomy
+Current phase: claim_1_toy_documentation_complete
 Per-claim state: C1 toy finite exact-rational SLP-to-quadratic-network gadget conformance (not a #P-hardness proof); C2-C5 unstarted
-Publication status: not published
+Publication status: documentation and attribution cleanup pending publication
 Selection rationale: Live duplicate/coordination gate passed; five source-pinned, locally executable bit-complexity theorem claims. The primary source archive is compact and contains explicit reduction constructions and an illustrative numerical figure; initial source audit found no author executable, so future evidence must be independent clean-room and honestly scoped.

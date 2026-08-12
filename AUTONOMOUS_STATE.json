@@ -2,7 +2,7 @@
   "schema_version": 1,
   "openreview_id": "nMS1YTjHMH",
   "phase": "claim_1_attempt_1_exact_rational_quadratic_slp_toy_complete",
-  "next_action": "independent_review_of_claim_1_toy_then_attempt_2_source_reduction_auxiliary_forcing",
+  "next_action": "publish_clean_repository_name_then_continue_claim_audit",
   "active_run_ids": [],
   "completed_milestones": [
     "live_duplicate_gate",
@@ -24,7 +24,7 @@
   "publication_allowed": false,
   "compute_policy": "local CPU/local GPU only; no HF cpu-upgrade, Jobs, paid, or remote compute",
   "selection_snapshot": "outputs/live/20260801T123034Z",
-  "github_repository": "https://github.com/MachineLearning-Nerd/icml26-repro-nMS1YTjHMH-relu-bit-model-dichotomy",
+  "github_repository": "https://github.com/MachineLearning-Nerd/icml26-relu-bit-model-dichotomy",
   "claim_1_outcome": {
     "verdict": "toy",
     "scope": "finite exact-rational clean-room SLP-to-quadratic-network multiplication-gadget conformance; not a #P-hardness proof or full ERM reduction",
