@@ -1,0 +1,36 @@
+{
+  "schema_version": 2,
+  "repository": "MachineLearning-Nerd/icml26-relu-bit-model-dichotomy",
+  "paper": "Why ReLU? A Bit-Model Dichotomy for Deep Network Training",
+  "branch_contract": {
+    "default": "main",
+    "total": 1,
+    "descriptive": 0,
+    "old_prefix_absent": "orx/"
+  },
+  "aggregates": {
+    "evidence/source/paper.pdf": "5f8d8f7a9e905541f7724601c31ee7c0986f8b84ee4384e5a4d6255ecfb29496",
+    "evidence/source/arxiv_source.tar": "0884358e1014ea14cba64c83cdc57a40521d82a219dabdebc01b5af6a3b87f28",
+    "evidence/source/SHA256SUMS": "afde2971896c84dc5df369e21318fdf7793b9f076da3a30a15d58d548139da19",
+    "evidence/source/source_inventory.txt": "93dc51c0ca1483939d85990f96f3174fcb94a4c228bdbd0bc8d67c5964d2bad3",
+    "outputs/claim1_quadratic_slp_toy/SHA256SUMS": "08e59677e3827aea616fbe2258f069e5c8bcf08e572d61b56152f56dfff035d6",
+    "outputs/claim1_quadratic_slp_toy/summary.json": "fc724d24d2bb8edc72890c523df47defce73742751f512d8d6b11662950274b8",
+    "outputs/claim1_quadratic_slp_toy/results.csv": "48b228bdc5fc99125771015045ede61388d4fe0efc62cdaa2ea96c8207e724ae",
+    "outputs/claim1_quadratic_slp_toy/run.log": "f040f258fb4e58f5d4b03ef817df79445879f9b97ae5a1936c2ffca45f365aa4",
+    "outputs/claim1_quadratic_slp_toy/command.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "files": [
+    {"path": "README.md", "sha256": "9d832cfd864a46df94d1220457667013e48e8b0949acb495e0524dfcc1755e87"},
+    {"path": "STATUS.md", "sha256": "b1b107bf2b25757baa11d6c5430dc2ec7c1a0535c3f81daa3de86e8a67042043"},
+    {"path": "branch-audit.md", "sha256": "71d78660f1898cdb7fd94c8fc18feb3bba6b11c6b17a9f2008b8dce34e591497"},
+    {"path": "BRANCH_AUDIT.md", "sha256": "61463c10fdfcad397af8ef5b7bfd23a52aa42f918aa0aa6917df0a17d4aa6d6e"},
+    {"path": "AUTHOR_THANK_YOU.md", "sha256": "8a04a9193279d09bddd058199a510cc3f0cf0aa3cdeed1f5ec42e846cf4971e7"},
+    {"path": "CITATION.cff", "sha256": "c720543987d0a2ad95edb9177d7a35a19a8f518d4df006fd3f29fb83e58dec00"},
+    {"path": "CLAIM_EVIDENCE.md", "sha256": "c6587a8689db77f677353a43d5c5ad69d1ccab088cec8a2fdd037e7c5d917392"},
+    {"path": "ENVIRONMENT.md", "sha256": "afe90792408811a1e5936a0e3eeda5c8fef1d0d035d2f54eea3a9093987eed7e"},
+    {"path": "REPORT.md", "sha256": "f51fa4a9a7081017c598ba96bd9886f221f6b6930f8db8fd8ea05e6193e5da73"},
+    {"path": "SOURCE_AUDIT.md", "sha256": "bc718e6a0b1f529b87f7609592ba303eba28c43538aeef2f09ef80197691ace6"},
+    {"path": "claims.json", "sha256": "9088275943431b1379d448efff8f91a1f434f1feafd3c5cbd65f06c9e8cbcdf6"},
+    {"path": "verify_final.py", "sha256": "f41774202d8c2c189b3c38c15093cf78726acae5bae4676eb8f0a5891928c27c"}
+  ]
+}

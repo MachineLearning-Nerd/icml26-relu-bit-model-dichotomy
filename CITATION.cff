@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this audit, cite both this repository and the original paper."
+title: "Why ReLU? A Bit-Model Dichotomy for Deep Network Training: Independent Reproduction Audit"
+type: software
+version: "1.0.0"
+date-released: 2026-08-17
+authors:
+  - name: MachineLearning-Nerd
+    website: https://github.com/MachineLearning-Nerd
+repository-code: https://github.com/MachineLearning-Nerd/icml26-relu-bit-model-dichotomy
+url: https://github.com/MachineLearning-Nerd/icml26-relu-bit-model-dichotomy
+keywords:
+  - ReLU
+  - bit complexity
+  - straight-line programs
+  - computational complexity
+  - reproducibility
+  - ICML 2026
+references:
+  - type: article
+    authors:
+      - family-names: Doron-Arad
+        given-names: Ilan
+      - family-names: Mossel
+        given-names: Elchanan
+    title: "Why ReLU? A Bit-Model Dichotomy for Deep Network Training"
+    year: 2026
+    doi: 10.48550/arXiv.2602.19017
+    url: https://arxiv.org/abs/2602.19017

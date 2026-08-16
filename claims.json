@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "paper": "Why ReLU? A Bit-Model Dichotomy for Deep Network Training",
+  "source": "arXiv:2602.19017",
+  "openreview_id": "nMS1YTjHMH",
+  "claims": [
+    {
+      "id": 1,
+      "status": "TOY_FINITE_SLP_GADGET",
+      "paper_target": "Theorem 1.1 polynomial-activation ERM_bit #P-hardness",
+      "implementation": [
+        "src/claim1_quadratic_slp_toy.py"
+      ],
+      "checker": [
+        "tests/test_claim1_quadratic_slp_toy.py",
+        "outputs/claim1_quadratic_slp_toy/summary.json"
+      ],
+      "controls": [
+        "corrupted multiplication gadget omits -y^2 and disagrees on all 16 rows"
+      ],
+      "scope": "Four exact-rational SLP fixtures and 16 bit queries; not an ERM reduction or #P-hardness proof"
+    },
+    {
+      "id": 2,
+      "status": "UNVERIFIED_NOT_STARTED",
+      "paper_target": "Corollary 1.2 polynomial-hierarchy consequence",
+      "implementation": [],
+      "checker": [],
+      "controls": [],
+      "scope": "No evidence produced"
+    },
+    {
+      "id": 3,
+      "status": "UNVERIFIED_NOT_STARTED",
+      "paper_target": "Theorem 1.3 gradient-bit hardness and sign lower bound",
+      "implementation": [],
+      "checker": [],
+      "controls": [],
+      "scope": "No evidence produced"
+    },
+    {
+      "id": 4,
+      "status": "UNVERIFIED_NOT_STARTED",
+      "paper_target": "Theorem 1.4 ReLU ERM_bit NP-completeness and polynomial backpropagation",
+      "implementation": [],
+      "checker": [],
+      "controls": [],
+      "scope": "No evidence produced"
+    },
+    {
+      "id": 5,
+      "status": "UNVERIFIED_NOT_STARTED",
+      "paper_target": "Section 3 SLP-to-ERM reduction",
+      "implementation": [],
+      "checker": [],
+      "controls": [],
+      "scope": "No evidence produced"
+    }
+  ],
+  "boundary": "Only finite exact-rational gadget conformance is evidenced; complexity-theorem claims remain unverified."
+}
