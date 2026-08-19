@@ -9,7 +9,10 @@ Source paper/version: arXiv:2602.19017 (source and PDF pinned)
 Official code/data/model pins: no author executable or dataset reference found in pinned source audit
 Compute policy: local CPU/local GPU only; no HF cpu-upgrade/Jobs/paid/remote compute
 GitHub repository: https://github.com/MachineLearning-Nerd/icml26-relu-bit-model-dichotomy
-Current phase: claim_1_toy_documented_and_repository_published
+Current phase: published_scoped_partial_audit
+Overall verdict: PARTIAL_CLAIM_1_TOY_CLAIMS_2_TO_5_UNVERIFIED.
+Publication boundary: publication_allowed=false for a complete reproduction or score; this is a scoped toy-level dossier. score_claim=false and official_author_endorsement=false.
 Per-claim state: C1 toy finite exact-rational SLP-to-quadratic-network gadget conformance (not a #P-hardness proof); C2-C5 unstarted
 Publication status: renamed, attribution-normalized, pushed, and verified; full scientific claim release remains incomplete
 Selection rationale: Live duplicate/coordination gate passed; five source-pinned, locally executable bit-complexity theorem claims. The primary source archive is compact and contains explicit reduction constructions and an illustrative numerical figure; initial source audit found no author executable, so future evidence must be independent clean-room and honestly scoped.
+Dossier: README.md, CLAIM_1_PROTOCOL.md, CLAIM_EVIDENCE.md, SOURCE_AUDIT.md, ENVIRONMENT.md, REPORT.md, claims.json, reproduction_verdicts.json, AUTONOMOUS_STATE.json, EVIDENCE_MANIFEST.json, and verify_final.py

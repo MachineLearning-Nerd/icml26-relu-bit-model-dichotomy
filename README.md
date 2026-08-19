@@ -11,6 +11,11 @@ current repository contains one finite exact-rational SLP-to-quadratic-network
 toy. It does not yet construct the paper’s auxiliary-sample ERM reduction or
 verify the paper’s complexity theorems.
 
+Machine-readable overall verdict: PARTIAL_CLAIM_1_TOY_CLAIMS_2_TO_5_UNVERIFIED.
+Publication boundary: publication_allowed=false for a complete reproduction or
+score; this repository publishes a scoped toy-level dossier only. score_claim=false
+and official_author_endorsement=false.
+
 ## Current status
 
 | Claim | Paper target | Repository evidence | Verdict |
@@ -32,6 +37,20 @@ Four small straight-line programs are evaluated with exact `Fraction` arithmetic
 All 16 queried low-order bits match direct arithmetic, while omitting the `-y^2`
 term makes every fixture disagree. This demonstrates local gadget conformance,
 not `#P`-hardness, an ERM instance, or a universal theorem.
+
+## Audit dossier
+
+The repository-level audit record is split into small, reviewable documents:
+
+- [claims.json](claims.json) is the machine-readable claim ledger.
+- [reproduction_verdicts.json](reproduction_verdicts.json) records each claim's
+  verdict, production path, evidence, and publication boundary.
+- [AUTONOMOUS_STATE.json](AUTONOMOUS_STATE.json) records the resumable audit
+  state and canonical attribution checkpoint.
+- [STATUS.md](STATUS.md), [REPORT.md](REPORT.md), and
+  [BRANCH_AUDIT.md](BRANCH_AUDIT.md) summarize state, scope, and branch history.
+- [EVIDENCE_MANIFEST.json](EVIDENCE_MANIFEST.json) hashes the dossier and
+  immutable source/toy evidence.
 
 ## How the current claim evidence is produced
 
@@ -106,5 +125,5 @@ finite arithmetic evidence from claims that require a full complexity reduction.
 Approved repository commits are attributed to:
 
 ```text
-MachineLearning-Nerd <37579156+MachineLearning-Nerd@users.noreply.github.com>
+MachineLearning-Nerd <MachineLearning-Nerd@users.noreply.github.com>
 ```

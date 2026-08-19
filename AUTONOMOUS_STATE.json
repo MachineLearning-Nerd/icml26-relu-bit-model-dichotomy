@@ -7,7 +7,7 @@
     "Ilan Doron-Arad",
     "Elchanan Mossel"
   ],
-  "phase": "dossier_published_claim_1_toy_only",
+  "phase": "published_scoped_partial_audit",
   "next_action": "continue_claim_1_auxiliary_forcing_protocol",
   "claim_status": {
     "1": "toy_finite_exact_rational_slp_gadget",
@@ -35,6 +35,11 @@
   "failed_attempts": [],
   "dossier_publication_allowed": true,
   "full_scientific_release_allowed": false,
+  "publication_allowed": false,
+  "overall_verdict": "PARTIAL_CLAIM_1_TOY_CLAIMS_2_TO_5_UNVERIFIED",
+  "publication_boundary": "PARTIAL_TOY_ONLY_NO_FULL_REPRODUCTION",
+  "score_claim": false,
+  "official_author_endorsement": false,
   "compute_policy": "local CPU/local GPU only; no HF cpu-upgrade, Jobs, paid, or remote compute",
   "old_repository": "icml26-repro-nMS1YTjHMH-relu-bit-model-dichotomy",
   "github_repository": "https://github.com/MachineLearning-Nerd/icml26-relu-bit-model-dichotomy",
@@ -57,8 +62,8 @@
     "branch_count": 1,
     "descriptive_branch_count": 0,
     "old_orx_branches_present": false,
-    "reachable_commit_identity": "MachineLearning-Nerd <37579156+MachineLearning-Nerd@users.noreply.github.com>",
-    "fresh_clone_verifier": "FINAL_AUDIT=VERIFIED branches=1 commits=6 claim1=toy claims2-5=unverified",
+    "reachable_commit_identity": "MachineLearning-Nerd <MachineLearning-Nerd@users.noreply.github.com>",
+    "fresh_clone_verifier": "FINAL_AUDIT=VERIFIED branches=1 commits=7 claim1=toy claims2-5=unverified",
     "fresh_clone_path": "/tmp/icml-relu-bit-final-verify.TewALL",
     "github_description": "ICML 2026 scoped reproduction audit for Why ReLU? A Bit-Model Dichotomy for Deep Network Training",
     "github_homepage": "https://arxiv.org/abs/2602.19017"
@@ -77,8 +82,26 @@
     "final_verifier": "complete",
     "repository_rename": "complete"
   },
+  "verified_reachable_commits": 7,
+  "dossier_files": [
+    "README.md",
+    "STATUS.md",
+    "REPORT.md",
+    "CLAIM_EVIDENCE.md",
+    "SOURCE_AUDIT.md",
+    "BRANCH_AUDIT.md",
+    "branch-audit.md",
+    "ENVIRONMENT.md",
+    "AUTHOR_THANK_YOU.md",
+    "CITATION.cff",
+    "claims.json",
+    "reproduction_verdicts.json",
+    "EVIDENCE_MANIFEST.json",
+    "verify_final.py",
+    "AUTONOMOUS_STATE.json"
+  ],
   "attribution": {
     "name": "MachineLearning-Nerd",
-    "email": "37579156+MachineLearning-Nerd@users.noreply.github.com"
+    "email": "MachineLearning-Nerd@users.noreply.github.com"
   }
 }

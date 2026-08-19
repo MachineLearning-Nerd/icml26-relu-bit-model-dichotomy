@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "repository": "MachineLearning-Nerd/icml26-relu-bit-model-dichotomy",
+  "paper": {
+    "title": "Why ReLU? A Bit-Model Dichotomy for Deep Network Training",
+    "authors": [
+      "Ilan Doron-Arad",
+      "Elchanan Mossel"
+    ],
+    "arxiv": "2602.19017",
+    "openreview_id": "nMS1YTjHMH"
+  },
+  "overall_verdict": "PARTIAL_CLAIM_1_TOY_CLAIMS_2_TO_5_UNVERIFIED",
+  "publication_allowed": false,
+  "publication_boundary": "PARTIAL_TOY_ONLY_NO_FULL_REPRODUCTION",
+  "score_claim": false,
+  "official_author_endorsement": false,
+  "claims": [
+    {
+      "id": "C1",
+      "status": "TOY_FINITE_SLP_GADGET",
+      "status_detail": "FINITE_EXACT_RATIONAL_GADGET_CONFORMANCE_ONLY",
+      "production_path": [
+        "src/claim1_quadratic_slp_toy.py::eval_slp",
+        "tests/test_claim1_quadratic_slp_toy.py",
+        "outputs/claim1_quadratic_slp_toy/summary.json",
+        "outputs/claim1_quadratic_slp_toy/results.csv"
+      ],
+      "claim_boundary": "Four exact-rational straight-line-program fixtures and 16 queried bits match the quadratic multiplication identity, while a corrupted gadget fails; this is not an ERM reduction or a #P-hardness proof.",
+      "evidence": [
+        "outputs/claim1_quadratic_slp_toy/summary.json",
+        "outputs/claim1_quadratic_slp_toy/results.csv",
+        "outputs/claim1_quadratic_slp_toy/run.log",
+        "outputs/claim1_quadratic_slp_toy/command.stdout",
+        "outputs/claim1_quadratic_slp_toy/SHA256SUMS",
+        "CLAIM_1_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "C2",
+      "status": "UNVERIFIED_NOT_STARTED",
+      "status_detail": "NO_INDEPENDENT_AUDIT_COMMITTED",
+      "production_path": null,
+      "claim_boundary": "The polynomial-hierarchy conditional consequence remains unverified.",
+      "evidence": []
+    },
+    {
+      "id": "C3",
+      "status": "UNVERIFIED_NOT_STARTED",
+      "status_detail": "NO_INDEPENDENT_AUDIT_COMMITTED",
+      "production_path": null,
+      "claim_boundary": "The gradient-bit hardness and sign lower-bound route remains unverified.",
+      "evidence": []
+    },
+    {
+      "id": "C4",
+      "status": "UNVERIFIED_NOT_STARTED",
+      "status_detail": "NO_INDEPENDENT_AUDIT_COMMITTED",
+      "production_path": null,
+      "claim_boundary": "The ReLU ERM_bit NP-completeness and polynomial backpropagation claims remain unverified.",
+      "evidence": []
+    },
+    {
+      "id": "C5",
+      "status": "UNVERIFIED_NOT_STARTED",
+      "status_detail": "NO_INDEPENDENT_AUDIT_COMMITTED",
+      "production_path": null,
+      "claim_boundary": "The full straight-line-program-to-ERM reduction remains unverified.",
+      "evidence": []
+    }
+  ]
+}

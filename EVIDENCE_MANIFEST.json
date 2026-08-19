@@ -1,6 +1,15 @@
 {
   "schema_version": 2,
   "repository": "MachineLearning-Nerd/icml26-relu-bit-model-dichotomy",
+  "overall_verdict": "PARTIAL_CLAIM_1_TOY_CLAIMS_2_TO_5_UNVERIFIED",
+  "publication_allowed": false,
+  "publication_boundary": "PARTIAL_TOY_ONLY_NO_FULL_REPRODUCTION",
+  "score_claim": false,
+  "official_author_endorsement": false,
+  "attribution": {
+    "name": "MachineLearning-Nerd",
+    "email": "MachineLearning-Nerd@users.noreply.github.com"
+  },
   "paper": "Why ReLU? A Bit-Model Dichotomy for Deep Network Training",
   "branch_contract": {
     "default": "main",
@@ -20,17 +29,19 @@
     "outputs/claim1_quadratic_slp_toy/command.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   },
   "files": [
-    {"path": "README.md", "sha256": "9d832cfd864a46df94d1220457667013e48e8b0949acb495e0524dfcc1755e87"},
-    {"path": "STATUS.md", "sha256": "b1b107bf2b25757baa11d6c5430dc2ec7c1a0535c3f81daa3de86e8a67042043"},
-    {"path": "branch-audit.md", "sha256": "71d78660f1898cdb7fd94c8fc18feb3bba6b11c6b17a9f2008b8dce34e591497"},
-    {"path": "BRANCH_AUDIT.md", "sha256": "61463c10fdfcad397af8ef5b7bfd23a52aa42f918aa0aa6917df0a17d4aa6d6e"},
+    {"path": "README.md", "sha256": "3db0c05559c3dd61ff82ff3c22ff68ca120d59dacc7d0527a6a2d9e5692add3b"},
+    {"path": "STATUS.md", "sha256": "17d3780d87b162399f70a7afc6af17558cb7b22d150639afe62ef5f2ef6b9e6a"},
+    {"path": "branch-audit.md", "sha256": "aa128507c18a714092b6b57be247fb6a89d65206bdb9f92c34b10085a1032cd8"},
+    {"path": "BRANCH_AUDIT.md", "sha256": "f2a9c39abcf6133a4292e4ff3d7cef33083efcb3121a25527807f626192401e1"},
     {"path": "AUTHOR_THANK_YOU.md", "sha256": "8a04a9193279d09bddd058199a510cc3f0cf0aa3cdeed1f5ec42e846cf4971e7"},
     {"path": "CITATION.cff", "sha256": "c720543987d0a2ad95edb9177d7a35a19a8f518d4df006fd3f29fb83e58dec00"},
     {"path": "CLAIM_EVIDENCE.md", "sha256": "c6587a8689db77f677353a43d5c5ad69d1ccab088cec8a2fdd037e7c5d917392"},
     {"path": "ENVIRONMENT.md", "sha256": "afe90792408811a1e5936a0e3eeda5c8fef1d0d035d2f54eea3a9093987eed7e"},
-    {"path": "REPORT.md", "sha256": "f51fa4a9a7081017c598ba96bd9886f221f6b6930f8db8fd8ea05e6193e5da73"},
+    {"path": "REPORT.md", "sha256": "35bac76015d72e35d186c2959dfcc833af05a3b893b32ff03b4df5a5893b1b5b"},
     {"path": "SOURCE_AUDIT.md", "sha256": "bc718e6a0b1f529b87f7609592ba303eba28c43538aeef2f09ef80197691ace6"},
-    {"path": "claims.json", "sha256": "9088275943431b1379d448efff8f91a1f434f1feafd3c5cbd65f06c9e8cbcdf6"},
-    {"path": "verify_final.py", "sha256": "f41774202d8c2c189b3c38c15093cf78726acae5bae4676eb8f0a5891928c27c"}
+    {"path": "claims.json", "sha256": "ffe38c0d78a3dba79a506cc30c580afa44d3045ddf6fe6aee0584feda8e1198c"},
+    {"path": "reproduction_verdicts.json", "sha256": "c540fa98e5db0f94171c544d4602f230ac5ac3b2b62ba8f9d56e46157b799d44"},
+    {"path": "AUTONOMOUS_STATE.json", "sha256": "71756fc571d826e0d350391dccfe6488dd75fff5c7cd42d704e180e8882359d0"},
+    {"path": "verify_final.py", "sha256": "902d8db739b5aedf66ff3c7d8ae3407e66e95460f334ac7a74a28d38bb8208fe"}
   ]
 }

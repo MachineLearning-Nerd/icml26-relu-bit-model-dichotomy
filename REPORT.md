@@ -10,6 +10,10 @@ exact-rational straight-line-program fixtures. All 16 queried low-order bits
 match direct arithmetic. A corrupted gadget that omits the negative square
 disagrees on every fixture.
 
+Machine-readable overall verdict: PARTIAL_CLAIM_1_TOY_CLAIMS_2_TO_5_UNVERIFIED.
+The publication boundary is publication_allowed=false for a complete
+reproduction or score; score_claim=false and official_author_endorsement=false.
+
 ## Claim status
 
 | Claim | Status | Evidence |

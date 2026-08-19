@@ -23,5 +23,5 @@ quadratic SLP toy, raw evidence, and the documentation in the root.
 All reachable commits will be normalized to:
 
 ```text
-MachineLearning-Nerd <37579156+MachineLearning-Nerd@users.noreply.github.com>
+MachineLearning-Nerd <MachineLearning-Nerd@users.noreply.github.com>
 ```
