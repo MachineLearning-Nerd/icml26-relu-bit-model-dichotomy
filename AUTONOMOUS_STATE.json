@@ -44,9 +44,9 @@
   "old_repository": "icml26-repro-nMS1YTjHMH-relu-bit-model-dichotomy",
   "github_repository": "https://github.com/MachineLearning-Nerd/icml26-relu-bit-model-dichotomy",
   "pre_dossier_main": "50e9755409231e1ddc714662b4bdd2181a148793",
-  "dossier_commit": "dbe243c938bad22dbd11a0d083ab09233032ccb8",
-  "dossier_commit_message": "docs(audit): publish ReLU bit-model dossier",
-  "recovery_bundle_sha256": "78824e2d46f910246a079938bd204f62fb3591499558cf65af2fcfe0f8e2b376",
+  "dossier_commit": "00e98c9dbff51a1f2d3dd90b42640630691d52b0",
+  "dossier_commit_message": "Standardize ReLU bit-model audit state",
+  "recovery_bundle_sha256": "9bcc59a503eb0df7bd193351f63d89f8dc2d92945905fc4c4902bddf4d9d0bd6",
   "evidence": {
     "contract_manifest_sha256": "c6a18ccebc87e1f980d8cc9c8885bc616e1cecc93393d6687e058fc46fd1c41c",
     "paper_pdf_sha256": "5f8d8f7a9e905541f7724601c31ee7c0986f8b84ee4384e5a4d6255ecfb29496",
@@ -58,12 +58,12 @@
   "live_verification": {
     "repository_name": "icml26-relu-bit-model-dichotomy",
     "default_branch": "main",
-    "last_verified_dossier_commit": "dbe243c938bad22dbd11a0d083ab09233032ccb8",
+    "last_verified_dossier_commit": "00e98c9dbff51a1f2d3dd90b42640630691d52b0",
     "branch_count": 1,
     "descriptive_branch_count": 0,
     "old_orx_branches_present": false,
     "reachable_commit_identity": "MachineLearning-Nerd <MachineLearning-Nerd@users.noreply.github.com>",
-    "fresh_clone_verifier": "FINAL_AUDIT=VERIFIED branches=1 commits=7 claim1=toy claims2-5=unverified",
+    "fresh_clone_verifier": "FINAL_AUDIT=VERIFIED branches=1 commits=8 claim1=toy claims2-5=unverified",
     "fresh_clone_path": "/tmp/icml-relu-bit-final-verify.TewALL",
     "github_description": "ICML 2026 scoped reproduction audit for Why ReLU? A Bit-Model Dichotomy for Deep Network Training",
     "github_homepage": "https://arxiv.org/abs/2602.19017"
@@ -82,7 +82,7 @@
     "final_verifier": "complete",
     "repository_rename": "complete"
   },
-  "verified_reachable_commits": 7,
+  "verified_reachable_commits": 8,
   "dossier_files": [
     "README.md",
     "STATUS.md",

@@ -41,7 +41,7 @@
     {"path": "SOURCE_AUDIT.md", "sha256": "bc718e6a0b1f529b87f7609592ba303eba28c43538aeef2f09ef80197691ace6"},
     {"path": "claims.json", "sha256": "ffe38c0d78a3dba79a506cc30c580afa44d3045ddf6fe6aee0584feda8e1198c"},
     {"path": "reproduction_verdicts.json", "sha256": "c540fa98e5db0f94171c544d4602f230ac5ac3b2b62ba8f9d56e46157b799d44"},
-    {"path": "AUTONOMOUS_STATE.json", "sha256": "71756fc571d826e0d350391dccfe6488dd75fff5c7cd42d704e180e8882359d0"},
-    {"path": "verify_final.py", "sha256": "902d8db739b5aedf66ff3c7d8ae3407e66e95460f334ac7a74a28d38bb8208fe"}
+    {"path": "AUTONOMOUS_STATE.json", "sha256": "e31ca89f796c4482a6689a2347f19fb115ecb2bb4b9461f4b3bd639486cb8180"},
+    {"path": "verify_final.py", "sha256": "f7485872bd2bd50f27279bfcce01052fdb7092f1bd12fab1703c8b0d52395eeb"}
   ]
 }
